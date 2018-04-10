@@ -1,19 +1,12 @@
-# Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
+# Личный проект «Глейси»
 
-* Студент: [Михаил Уткин](https://up.htmlacademy.ru/adaptive/10/user/240596).
-* Наставник: [Сергей Рубец](https://htmlacademy.ru/profile/id41580)
+* Студент: [Михаил Уткин](https://up.htmlacademy.ru/htmlcss/16/user/240596).
+* Наставник: `Сергей Рубец`.
 
 ---
 
-**Обратите внимание на файлы:**
-
-- [Specification.md](Specification.md) — техническое задание для вашего проекта. Прочтите его и следуйте требованиям.
-- [Contributing.md](Contributing.md) — руководство по внесению изменений.
-
---
-
-_Не удаляйте и не обращайте внимание на файлы:_<br>
-_`.editorconfig`, `.gitattributes`, `.gitignore`, `.travis.yml`, `package.json`._
+_Не удаляйте и не обращайте внимание на файлы:_<br>
+_`.editorconfig`, `.gitignore`, `Contributing.md`, `Readme.md`._
 
 ---
 
@@ -21,41 +14,30 @@ _`.editorconfig`, `.gitattributes`, `.gitignore`, `.travis.yml`, `package.json`.
 
 #### 1. Зарегистрируйтесь на Гитхабе
 
-Если у вас ещё нет аккаунта на [github.com](https://github.com/join), скорее зарегистрируйтесь.
+Если у вас ещё нет аккаунта на [github.com](https://github.com/join), скорее зарегистрируйтесь.
 
 #### 2. Создайте форк
 
-Откройте репозиторий и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии будет скопирован в ваш аккаунт.
+[Откройте мастер-репозиторий](https://github.com/htmlacademy-htmlcss/240596-gllacy) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии скопируется в ваш аккаунт.
 
-<img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/15455590/09e03f32-206a-11e6-9dc8-32d4c11edc90.png">
+<img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/12391926/4aaa72b0-bdfc-11e5-9324-e0597e8e0084.jpg">
 
 Получится вот так:
 
-<img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/15455592/0a060884-206a-11e6-863d-531a4023ac2e.png">
+<img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/12391927/4ad24f1a-bdfc-11e5-83e9-eb692950a6e5.jpg">
 
 #### 3. Клонируйте репозиторий на свой компьютер
 
-Будьте внимательны: нужно клонировать свой репозиторий (форк), а не репозиторий Академии. Также обратите внимание, что клонировать репозиторий нужно через SSH, а не через HTTPS. Нажмите зелёную кнопку в правой части экрана, чтобы скопировать SSH-адрес вашего репозитория:
+Будьте внимательны: нужно клонировать свой репозиторий (форк), а не репозиторий Академии. Нажмите кнопку с иконкой компьютера и стрелкой, чтобы клонировать репозиторий через программу [GitHub Desktop](https://desktop.github.com):
 
-<img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/15455689/2092071c-206d-11e6-883b-7a92865a0e1d.png">
+<img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/12391902/17d49924-bdfc-11e5-8864-05fbcbddbb90.jpg">
 
-Клонировать репозиторий можно так:
-
-```
-git clone SSH-адрес_вашего_форка
-```
-
-Команда клонирует репозиторий на ваш компьютер и подготовит всё необходимое для старта работы.
+Программа клонирует репозиторий на ваш компьютер и подготовит всё необходимое для старта работы.
 
 #### 4. Начинайте обучение!
 
 ---
 
-<a href="https://htmlacademy.ru/intensive/adaptive"><img align="left" width="50" height="50" alt="HTML Academy" src="https://up.htmlacademy.ru/static/img/intensive/adaptive/logo-for-github.svg"></a>
+<a href="https://htmlacademy.ru/intensive/htmlcss"><img align="left" width="50" height="50" alt="HTML Academy" src="https://up.htmlacademy.ru/static/img/intensive/htmlcss/logo-for-github.svg"></a>
 
-Репозиторий создан для обучения на интенсивном онлайн‑курсе «[Продвинутый HTML и CSS](https://htmlacademy.ru/intensive/adaptive)» от [HTML Academy](https://htmlacademy.ru).
-
-[travis-image]: https://travis-ci.org/htmlacademy-adaptive/240596-mishka.svg?branch=master
-[travis-url]: https://travis-ci.org/htmlacademy-adaptive/240596-mishka
-[dependency-image]: https://david-dm.org/htmlacademy-adaptive/240596-mishka/dev-status.svg?style=flat-square
-[dependency-url]: https://david-dm.org/htmlacademy-adaptive/240596-mishka?type=dev
+Репозиторий создан для обучения на интенсивном онлайн‑курсе «[Базовый HTML и CSS](https://htmlacademy.ru/intensive/htmlcss)» от [HTML Academy](https://htmlacademy.ru).
