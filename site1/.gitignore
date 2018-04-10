@@ -11,7 +11,7 @@ dev
 Thumbs.db
 
 ../.idea
-.idea
+../.idea
 .eslintcache
 npm-debug.log
 phantomjsdriver.log

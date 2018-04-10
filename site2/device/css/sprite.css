@@ -1,0 +1,167 @@
+.sprite {
+    background-image: url(../img/sprite.png);
+    background-repeat: no-repeat;
+    display: block;
+    }
+
+.sprite-icon-basket {
+    width: 12px;
+    height: 12px;
+    background-position: -5px -5px;
+    }
+
+.sprite-icon-basket--light-yellow {
+    width: 12px;
+    height: 12px;
+    background-position: -5px -27px;
+    }
+
+.sprite-icon-basket--yellow {
+    width: 12px;
+    height: 12px;
+    background-position: -5px -49px;
+    }
+
+.sprite-icon-compare {
+    width: 10px;
+    height: 10px;
+    background-position: -5px -71px;
+    }
+
+.sprite-icon-compare--light-yellow {
+    width: 10px;
+    height: 10px;
+    background-position: -5px -91px;
+    }
+
+.sprite-icon-compare--yellow {
+    width: 10px;
+    height: 10px;
+    background-position: -5px -111px;
+    }
+
+.sprite-icon-nav-arrow {
+    width: 4px;
+    height: 7px;
+    background-position: -5px -131px;
+    }
+
+.sprite-icon-plus {
+    width: 16px;
+    height: 16px;
+    background-position: -5px -148px;
+    }
+
+.sprite-icon-search {
+    width: 16px;
+    height: 16px;
+    background-position: -5px -174px;
+    }
+
+.sprite-icon-social--facebook {
+    width: 39px;
+    height: 38px;
+    background-position: -5px -200px;
+    }
+
+.sprite-icon-social--instagram {
+    width: 39px;
+    height: 38px;
+    background-position: -5px -248px;
+    }
+
+.sprite-icon-social--twitter {
+    width: 38px;
+    height: 38px;
+    background-position: -5px -296px;
+    }
+
+.sprite-icon-sort-direction {
+    width: 17px;
+    height: 9px;
+    background-position: -5px -344px;
+    }
+
+.sprite-icon-tick {
+    width: 12px;
+    height: 7px;
+    background-position: -5px -363px;
+    }
+
+.sprite-icon-user {
+    width: 13px;
+    height: 12px;
+    background-position: -5px -380px;
+    }
+
+.sprite-icon-user--light-yellow {
+    width: 13px;
+    height: 12px;
+    background-position: -5px -402px;
+    }
+
+.sprite-icon-user--yellow {
+    width: 13px;
+    height: 12px;
+    background-position: -5px -424px;
+    }
+
+.sprite-logo-dji {
+    width: 260px;
+    height: 100px;
+    background-position: -5px -446px;
+    }
+
+.sprite-logo-dji--grayscale {
+    width: 260px;
+    height: 100px;
+    background-position: -5px -556px;
+    }
+
+.sprite-logo-gopro {
+    width: 260px;
+    height: 100px;
+    background-position: -5px -666px;
+    }
+
+.sprite-logo-gopro--grayscale {
+    width: 260px;
+    height: 100px;
+    background-position: -5px -776px;
+    }
+
+.sprite-logo-htmlacademy {
+    width: 27px;
+    height: 34px;
+    background-position: -5px -886px;
+    }
+
+.sprite-logo-htmlacademy--hover {
+    width: 27px;
+    height: 34px;
+    background-position: -5px -930px;
+    }
+
+.sprite-logo-spgadgets {
+    width: 260px;
+    height: 100px;
+    background-position: -5px -974px;
+    }
+
+.sprite-logo-spgadgets---grayscale {
+    width: 260px;
+    height: 100px;
+    background-position: -5px -1084px;
+    }
+
+.sprite-logo-vive {
+    width: 260px;
+    height: 100px;
+    background-position: -5px -1194px;
+    }
+
+.sprite-logo-vive--grayscale {
+    width: 260px;
+    height: 100px;
+    background-position: -5px -1304px;
+    }
