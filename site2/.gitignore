@@ -1,5 +1,5 @@
 .DS_Store
-.idea
+device/.idea
 *.ai
 *.log
 *.pdf

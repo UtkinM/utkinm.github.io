@@ -1,0 +1,128 @@
+.page-cart {
+  position: fixed;
+  z-index: 1000;
+  background-color: #FFFFFF;
+  top: 50vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 320px;
+  border-top: 1px solid #c6c6c6;
+  border-right: 1px solid #c6c6c6;
+  border-left: 1px solid #c6c6c6;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.25);
+
+  &--hidden {
+    display: none;
+  }
+
+  &--visible {
+    display: block;
+  }
+}
+
+.page-cart__inner {
+  width: 260px;
+  margin: 26px auto 46px;
+}
+
+.page-cart__title {
+  display: block;
+  font-size: 27px;
+  line-height: 30px;
+  font-family: $font-open-sans;
+  font-weight: 700;
+  color: $black;
+  margin: 0 0 12px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.page-cart__subtitle {
+  color: $gray--darken;
+  font-size: 15px;
+  line-height: 30px;
+  text-align: center;
+  margin: 0;
+}
+
+.page-cart__form {
+  margin-top: 24px;
+}
+
+.page-cart__form-inner {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.page-cart__input-radio {
+  display: none;
+
+  &:checked + label {
+    border-color: $green;
+  }
+}
+
+.page-cart__radio {
+  box-sizing: border-box;
+  padding: 16px;
+  width: 82px;
+  text-align: center;
+
+  @include border(full, 2px);
+    font-family: $font-open-sans;
+    color: $black;
+    cursor: pointer;
+
+  &:hover {
+    border-color: $color-title-active;
+  }
+}
+
+.page-cart__btn {
+  @include btn(17px, 100%, $green, $white);
+    border: none;
+    padding: 12px;
+
+  &:hover {
+    background-color: $green;
+    color: rgba(256, 256, 256, 0.6);
+  }
+
+  &:active {
+    color: rgba(256, 256, 256, 0.3);
+  }
+}
+
+@include respond-to("medium") {
+  .page-cart {
+    width: 566px;
+  }
+
+  .page-cart__inner {
+    margin-top: 28px;
+    width: 350px;
+  }
+
+  .page-cart__title {
+    width: 355px;
+    margin-bottom: 15px;
+  }
+
+  .page-cart__subtitle {
+    font-size: 17px;
+  }
+
+  .page-cart__form {
+    margin-top: 21px;
+  }
+
+  .page-cart__form-inner {
+    margin-bottom: 31px;
+  }
+
+  .page-cart__radio {
+    width: 112px;
+  }
+}

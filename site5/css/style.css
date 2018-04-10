@@ -1,0 +1,110 @@
+/* ----- fonts ----- */
+/*font-family: "FiraSansLight";*/
+@font-face {
+  font-family: "FiraSansLight";
+  src: url("../fonts/FiraSansLight/FiraSansLight.eot");
+  src: url("../fonts/FiraSansLight/FiraSansLight.eot?#iefix") format("embedded-opentype"), url("../fonts/FiraSansLight/FiraSansLight.woff") format("woff"), url("../fonts/FiraSansLight/FiraSansLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+/*font-family: "FiraSansRegular";*/
+@font-face {
+  font-family: "FiraSansRegular";
+  src: url("../fonts/FiraSansRegular/FiraSansRegular.eot");
+  src: url("../fonts/FiraSansRegular/FiraSansRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/FiraSansRegular/FiraSansRegular.woff") format("woff"), url("../fonts/FiraSansRegular/FiraSansRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+/*font-family: "FiraSansBold";*/
+@font-face {
+  font-family: "FiraSansBold";
+  src: url("../fonts/FiraSansBold/FiraSansBold.eot");
+  src: url("../fonts/FiraSansBold/FiraSansBold.eot?#iefix") format("embedded-opentype"), url("../fonts/FiraSansBold/FiraSansBold.woff") format("woff"), url("../fonts/FiraSansBold/FiraSansBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+body {
+  font-family: "FiraSansLight", Arial, sans-serif; }
+
+.logo {
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px; }
+
+.container {
+  max-width: 460px;
+  margin: 0 auto;
+  padding: 32px 0 32px 0; }
+
+.accordion__panel {
+  display: none;
+  overflow: hidden;
+  border-radius: 20px;
+  margin-top: -35px; }
+  .accordion__panel p {
+    padding: 16px 20px;
+    margin: 0;
+    background-color: #e7e7e7;
+    color: #4f4f4f;
+    font-size: 15px;
+    line-height: 0;
+    font-weight: 500;
+    user-select: none; }
+  .accordion__panel p:first-child {
+    padding-top: 55px; }
+.accordion__summary {
+  cursor: pointer;
+  position: relative;
+  background-color: #f1f1f1;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 26px;
+  padding: 7px;
+  padding-left: 20px;
+  margin-top: 5px;
+  display: block;
+  text-decoration: none;
+  color: #4f4f4f;
+  border-radius: 20px; }
+  .accordion__summary::before {
+    position: absolute;
+    right: 19px;
+    top: 11px;
+    content: url("../img/arrow-up.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    transform-origin: 50% 50%; }
+  .accordion__summary:hover {
+    color: #fff;
+    background-color: #ff8663; }
+    .accordion__summary:hover::before {
+      position: absolute;
+      right: 19px;
+      top: 6px;
+      content: url("../img/arrow-down.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      transform: rotate(180deg);
+      transform-origin: 50% 50%; }
+.accordion__item_active .accordion__summary {
+  background-color: #ff8663;
+  color: #fff;
+  z-index: 100; }
+  .accordion__item_active .accordion__summary::before {
+    position: absolute;
+    right: 19px;
+    top: 11px;
+    content: url("../img/arrow-down.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    transform: rotate(0deg);
+    transform-origin: 50% 50%; }
+.accordion__item:nth-of-type(odd) .accordion__summary {
+  background-color: #696666;
+  color: #fff; }
+  .accordion__item:nth-of-type(odd) .accordion__summary:hover {
+    color: #fff;
+    background-color: #ff8663; }
+.accordion__item_active:nth-of-type(odd) .accordion__summary {
+  background-color: #ff8663; }
+.accordion__item_active .accordion__panel {
+  display: block; }
+
+/*# sourceMappingURL=style.css.map */
