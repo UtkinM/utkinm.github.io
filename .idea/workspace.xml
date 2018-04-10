@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b210e120-d1a7-40e1-ac65-ebcf4532fd85" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site1/main.html" afterPath="$PROJECT_DIR$/site1/main.html" />
-    </list>
+    <list default="true" id="b210e120-d1a7-40e1-ac65-ebcf4532fd85" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -30,8 +28,10 @@
         <entry file="file://$PROJECT_DIR$/site1/main.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="116">
-              <caret line="50" column="70" lean-forward="false" selection-start-line="50" selection-start-column="70" selection-end-line="50" selection-end-column="70" />
-              <folding />
+              <caret line="53" column="73" lean-forward="false" selection-start-line="53" selection-start-column="73" selection-end-line="53" selection-end-column="73" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -205,7 +205,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523343245659</updated>
-      <workItem from="1523343248477" duration="11393000" />
+      <workItem from="1523343248477" duration="11430000" />
     </task>
     <task id="LOCAL-00001" summary="Развернул проект на github">
       <created>1523343460853</created>
@@ -218,7 +218,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11393000" />
+    <option name="totallyTimeSpent" value="11430000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="921" extended-state="6" />
@@ -394,8 +394,10 @@
     <entry file="file://$PROJECT_DIR$/site1/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
-          <caret line="50" column="70" lean-forward="false" selection-start-line="50" selection-start-column="70" selection-end-line="50" selection-end-column="70" />
-          <folding />
+          <caret line="53" column="73" lean-forward="false" selection-start-line="53" selection-start-column="73" selection-end-line="53" selection-end-column="73" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
