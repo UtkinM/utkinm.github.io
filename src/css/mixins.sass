@@ -1,0 +1,49 @@
+=center()
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+
+=hidden
+    position: absolute
+    clip: rect(0 0 0 0) /* for Internet Explorer */
+    clip: rect(0, 0, 0, 0)
+    height: 1px
+    width: 1px
+    padding: 0
+    margin: -1px
+    border: 0
+    overflow: hidden
+
+
+// =============================================================================
+// Функции пересчета значений
+
+@function rem($num)
+    $strip-unit: $num / ($num * 0 + 1)
+    @return $strip-unit / 16 * 1rem
+
+
+@function em($num, $root: 16)
+    $strip-unit: $num / ($num * 0 + 1)
+    @return $strip-unit / $root * 1em
+
+// =============================================================================
+// Медиа запросы
+
+// меньше указанной ширины
+=below($width, $orientation: 'width')
+    @media screen and (max-#{$orientation}: $width)
+        @content
+
+
+// больше указанной величины (по умолчанию ширина)
+=above($width, $orientation: 'width')
+    @media screen and (min-#{$orientation}: $width)
+        @content
+
+
+// между первой и второй величиной (по умолчанию ширина)
+=between($minWidth, $maxWidth, $orientation: 'width')
+    @media screen and (min-#{$orientation}: $minWidth) and (max-#{$orientation}: $maxWidth)
+        @content

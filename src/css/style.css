@@ -1,0 +1,333 @@
+/*Colors */
+/*Screen sizes */
+body {
+  font-family: "Roboto", sans-serif; }
+
+.wrapper {
+  position: relative;
+  height: 100vh;
+  background-color: #f7f7f7; }
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.02);
+  background-color: #ffffff;
+  text-align: center; }
+
+.entry {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  margin: -1px;
+  border: 0;
+  overflow: hidden; }
+  .entry_mod {
+    width: 28.125rem;
+    height: 26.875rem; }
+    @media screen and (max-width: 30rem) {
+      .entry_mod {
+        width: 16.875rem;
+        height: 23.125rem; } }
+  .entry__form {
+    max-width: 26.875rem; }
+  .entry__link {
+    text-decoration: none;
+    color: #4b3eaf;
+    font-size: 0.8125rem;
+    font-weight: 400;
+    display: block; }
+    .entry__link:last-child {
+      margin-top: 1.375rem; }
+  .entry__user {
+    margin-top: 3.6875rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #999999; }
+  .entry__text {
+    margin-bottom: 0.3125rem;
+    letter-spacing: -0.5px; }
+  .entry .field__placeholder {
+    left: 6.25rem; }
+    @media screen and (max-width: 30rem) {
+      .entry .field__placeholder {
+        left: 2.375rem; } }
+  .entry .field__type {
+    width: 13.75rem; }
+    @media screen and (max-width: 30rem) {
+      .entry .field__type {
+        width: 12.5rem; } }
+
+.field__wrap-flex {
+  display: flex;
+  max-width: 15rem;
+  margin: 0 auto;
+  padding-top: 1.75rem;
+  align-items: baseline;
+  justify-content: space-between; }
+.field__wrap {
+  position: relative; }
+  .field__wrap:first-child:not(:last-child) {
+    margin-top: 3.4375rem; }
+  .field__wrap:last-child {
+    margin-top: 1.125rem; }
+  .field__wrap input[type=checkbox] {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    position: absolute; }
+  .field__wrap input[type=checkbox] + label:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 0.3125rem;
+    left: -4px;
+    width: 0.75rem;
+    height: 0.75rem;
+    background-color: #ffffff;
+    border: 1px solid #6455d6;
+    cursor: pointer; }
+  .field__wrap input[type=checkbox]:checked + label:before {
+    content: "";
+    background: url("../img/check.png") no-repeat 50% 50%;
+    display: block;
+    cursor: pointer; }
+.field__text-check {
+  font-size: 0.8125rem;
+  font-weight: 400;
+  color: #272727;
+  margin-left: 1rem; }
+.field__type {
+  position: relative;
+  padding: 0.625rem;
+  display: block;
+  width: 12.5rem;
+  height: 1.75rem;
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+  margin: 0 auto; }
+  .field__type:focus ~ label, .field__type:valid ~ label {
+    top: 0.25rem;
+    font-size: 0.625rem; }
+.field__placeholder {
+  color: #999999;
+  font-size: 0.875rem;
+  font-weight: 400;
+  position: absolute;
+  pointer-events: none;
+  left: 6.375rem;
+  top: 1rem;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all; }
+  .field__placeholder:focus {
+    outline: none; }
+
+.reg_mod {
+  width: 30.1875rem;
+  padding: 3.625rem 3.75rem 3.25rem 3.75rem;
+  margin-bottom: 2.5rem;
+  text-align: start; }
+  @media screen and (max-width: 47.9375rem) {
+    .reg_mod {
+      width: 80%; } }
+  @media screen and (max-width: 30rem) {
+    .reg_mod {
+      padding: 3.625rem 1.875rem 3.25rem 1.875rem; } }
+.reg .field {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 1.875rem; }
+  @media screen and (max-width: 47.9375rem) {
+    .reg .field {
+      margin-bottom: 0; } }
+  .reg .field__placeholder {
+    left: 10px; }
+  .reg .field__type {
+    width: 12.625rem; }
+  .reg .field__wrap {
+    margin: 0; }
+    @media screen and (max-width: 47.9375rem) {
+      .reg .field__wrap {
+        margin-bottom: 1.25rem; } }
+  .reg .field__title {
+    width: 100%;
+    color: #a9a7b5;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 1.25rem; }
+    @media screen and (max-width: 47.9375rem) {
+      .reg .field__title {
+        width: 80%; } }
+  .reg .field__text-radio {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #272727;
+    display: inline-block; }
+  .reg .field__text-radio_m {
+    font-size: 0.75rem;
+    color: #999999;
+    display: block;
+    width: 11.625rem;
+    margin-left: 1.4375rem;
+    margin-top: 0.3125rem;
+    margin-bottom: 0.8125rem; }
+    .reg .field__text-radio_m:last-child {
+      max-width: 25rem; }
+  .reg .field__wrap input[type="radio"] {
+    position: absolute;
+    opacity: 0; }
+    .reg .field__wrap input[type="radio"] + .field__label:before {
+      content: "";
+      background: #ffffff;
+      border-radius: 100%;
+      border: 1px solid #6455d6;
+      display: inline-block;
+      width: 0.75rem;
+      height: 0.75rem;
+      position: relative;
+      top: 0.125rem;
+      margin-right: 0.25rem;
+      vertical-align: top;
+      cursor: pointer;
+      text-align: center;
+      transition: all 250ms ease; }
+    .reg .field__wrap input[type="radio"]:checked + .field__label:before {
+      background-color: #272727;
+      box-shadow: inset 0 0 0 4px #ffffff; }
+    .reg .field__wrap input[type="radio"]:focus + .field__label:before {
+      outline: none;
+      border-color: #6455d6; }
+    .reg .field__wrap input[type="radio"] + .field__label:empty:before {
+      margin-right: 0; }
+
+.pass {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  margin: -1px;
+  border: 0;
+  overflow: hidden; }
+  .pass_mod {
+    width: 14.375rem;
+    padding: 3.5rem 5.625rem 3.4375rem 4.75rem; }
+    @media screen and (max-width: 30rem) {
+      .pass_mod {
+        max-width: 18.75rem;
+        padding-right: 2rem;
+        padding-left: 2rem; } }
+  .pass .field__title {
+    width: 16.25rem;
+    color: #272727;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    margin-bottom: 1.25rem;
+    text-align: center;
+    padding-bottom: 20px; }
+  .pass .field__placeholder {
+    left: 1.875rem; }
+  .pass .request__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+
+.confirm {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  margin: -1px;
+  border: 0;
+  overflow: hidden; }
+  .confirm_mod {
+    width: 37.5rem;
+    padding-top: 6.6875rem;
+    padding-right: 1.25rem;
+    padding-bottom: 6.6875rem;
+    padding-left: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    @media screen and (max-width: 47.9375rem) {
+      .confirm_mod {
+        max-width: 25rem; } }
+    @media screen and (max-width: 30rem) {
+      .confirm_mod {
+        max-width: 18.75rem;
+        padding-left: 0.3125rem;
+        padding-right: 0.3125rem; } }
+  .confirm__title {
+    color: #272727;
+    margin-top: 2.375rem;
+    margin-bottom: 1.9375rem;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-align: center; }
+  .confirm__text {
+    font-size: 0.9375rem;
+    font-weight: 400;
+    color: #999999;
+    margin: 0; }
+  .confirm__link {
+    font-weight: 700;
+    text-decoration: none;
+    color: #999999; }
+
+.btn {
+  display: inline-flex;
+  background-color: #6455d6;
+  color: #ffffff;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 0.3125rem;
+  border: none;
+  box-shadow: 0 12px 16px rgba(30, 20, 108, 0.1); }
+  .btn_entry {
+    height: 2.25rem;
+    padding: 0.625rem 1.6875rem 0rem 1.6875rem;
+    width: 6.875rem; }
+  .btn_reg {
+    height: 2.625rem;
+    padding: 0.8125rem;
+    padding-right: 0.875rem;
+    margin-top: 0.3125rem;
+    width: 12.875rem;
+    float: right; }
+    @media screen and (max-width: 47.9375rem) {
+      .btn_reg {
+        float: none; } }
+  .btn_pass {
+    width: 7.5rem;
+    height: 2.5rem;
+    padding: 0.8125rem;
+    margin-top: 2.5rem; }
+  .btn__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%; }
+
+/*# sourceMappingURL=style.css.map */

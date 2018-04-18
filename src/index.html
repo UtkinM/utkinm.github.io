@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="container">
+                <div class="entry entry_mod">
+                    <div class="entry__form">
+                        <div class="request">
+                            <form class="request__form">
+                                <div class="field">
+                                    <div class="field__wrap">
+                                        <input class="field__type" type="email" name="email" required>
+                                        <label class="field__placeholder">E-mail</label>
+                                    </div>
+                                    <div class="field__wrap">
+                                        <input class="field__type field__password" type="password" name="password" required>
+                                        <label class="field__placeholder">Пароль</label>
+                                    </div>
+                                </div>
+                                <div class="field__wrap-flex">
+                                    <div class="field field_checkbox">
+                                        <div class="field__wrap">
+                                            <input class="field__checkbox" type="checkbox" id="field__check">
+                                            <label class="field__label" for="field__check">
+                                                <span class="field__text-check">remember me</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <button class="btn btn_entry" type="submit">
+                                        <span class="btn__text">sign in</span>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="entry__user">
+                        <p class="entry__text">У меня еще нет аккаунта</p>
+                        <a href="#" class="entry__link">
+                            Зарегистрироваться
+                        </a>
+                        <a href="#" class="entry__link">
+                            Я забыл пароль
+                        </a>
+                    </div>
+                </div>
+                <div class="reg reg_mod">
+                    <div class="reg__form">
+                        <div class="request">
+                            <form class="request__form">
+                                <div class="field">
+                                    <h2 class="field__title">личные данные</h2>
+                                    <div class="field__wrap">
+                                        <input class="field__type field__name" type="text" name="name" required>
+                                        <label class="field__placeholder">Имя</label>
+                                    </div>
+                                    <div class="field__wrap">
+                                        <input class="field__type field__email" type="email" name="email" required>
+                                        <label class="field__placeholder">Электронная почта</label>
+                                    </div>
+                                </div>
+                                <div class="field field_radio">
+                                    <h2 class="field__title">тип аккаунта</h2>
+                                    <div class="field__wrap">
+                                        <input class="field__radio" name="radio" type="radio" id="field__radio-n" checked>
+                                        <label class="field__label" for="field__radio-n">
+                                            <span class="field__text-radio">Вебмастер</span><br>
+                                            <span class="field__text-radio_m">Для Вебмастера система предлагает широкий инструмент продажи трафика.</span><br>
+                                        </label>
+                                        <input class="field__radio" name="radio" type="radio" id="field__radio-m">
+                                        <label class="field__label" for="field__radio-m">
+                                            <span class="field__text-radio">Владелец ICO</span><br>
+                                            <span class="field__text-radio_m">Для ICO система предлагает эффективное продвижение путем баннерной рекламы. Умные баннеры и прозрачная статистика.</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <button class="btn btn_reg" type="submit">
+                                    <span class="btn__text">зарегистрироваться</span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="pass pass_mod">
+                    <div class="pass__form">
+                        <div class="request">
+                            <form class="request__form">
+                                <div class="field">
+                                    <h2 class="field__title">Придумайте надёжный пароль</h2>
+                                    <div class="field__wrap">
+                                        <input class="field__type field__name" type="password" name="password" required>
+                                        <label class="field__placeholder">Пароль</label>
+                                    </div>
+                                    <div class="field__wrap">
+                                        <input class="field__type field__email" type="password" name="password" required>
+                                        <label class="field__placeholder">Повторите пароль</label>
+                                    </div>
+                                </div>
+                                <button class="btn btn_pass" type="submit">
+                                    <span class="btn__text">готово</span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="confirm confirm_mod">
+                    <img src="img/mail.png" alt="почта">
+                    <h2 class="confirm__title">Осталось подтвердить электронную почту</h2>
+                    <p class="confirm__text">Письмо с подтверждением отправлено</p>
+                    <p class="confirm__text">на  <a class="confirm__link" href="mailto:ivanov@mail.ru">ivanov@mail.ru</a></p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
