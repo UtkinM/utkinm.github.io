@@ -22,7 +22,6 @@ accordions.forEach((acc) => {
     });
 });
 
-
 $(document).ready(function () {
 // Всплывающее окно (pupup)
     $('.header__feedback').on('click', function () {
