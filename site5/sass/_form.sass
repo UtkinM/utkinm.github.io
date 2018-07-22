@@ -1,0 +1,41 @@
+.form
+    &__wrap
+        display: flex
+        flex-direction: column
+
+    &__label
+        margin-top: rem(11)
+        margin-bottom: rem(7)
+
+        font-size: rem(14)
+        font-weight: 400
+        color: $color-popup
+
+    &__input
+        width: 100%
+        height: rem(43)
+
+        border: rem(1) solid $color-border-form
+
+        +below($mobile)
+            height: rem(38)
+
+    &__textarea
+        border: rem(1) solid $color-border-form
+
+    &__error
+        input:required
+
+            border: rem(1) solid $color-error-border-form
+            background-color: $color-white
+            box-shadow: inset 0 0 rem(13) rgba(228, 106, 106, 0.75)
+
+        input::placeholder
+            padding-left: rem(15)
+            font-style: italic
+            color: $color-error-form
+
+        input
+            font-size: rem(14)
+            font-style: italic
+            color: $color-error-form

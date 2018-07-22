@@ -1,0 +1,114 @@
+*, *:before, *:after
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+body
+    font-family: 'PT Sans', sans-serif
+
+img
+    max-width: 100%
+
+$color-grey: #767676
+$color-dark_grey: #444444
+$color-white: #ffffff
+$color-bg-header: #dbdbdb
+$color-bg-slider: #f8f8f8
+
+$color-bg-content: #dcdcdc
+
+$color-bg-popup: #777777
+$color-popup: #535353
+$color-border-form: #c3c3c3
+$color-error-form: #dc7f7f
+$color-error-border-form: #ff8383
+
+$laptop: 1014px
+$tablet-b: 992px
+$tablet: 768px
+$mobile: 425px
+
+=center()
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+
+=hidden
+    position: absolute
+    clip: rect(0 0 0 0) /* for Internet Explorer */
+    clip: rect(0, 0, 0, 0)
+    height: 1px
+    width: 1px
+    padding: 0
+    margin: -1px
+    border: 0
+    overflow: hidden
+
+// =============================================================================
+// Функции пересчета значений
+
+@function rem($num)
+    $strip-unit: $num / ($num * 0 + 1)
+    @return $strip-unit / 16 * 1rem
+
+
+@function em($num, $root: 16)
+    $strip-unit: $num / ($num * 0 + 1)
+    @return $strip-unit / $root * 1em
+
+// =============================================================================
+// Медиа запросы
+
+// меньше указанной ширины
+=below($width, $orientation: 'width')
+    @media screen and (max-#{$orientation}: $width)
+        @content
+
+
+// больше указанной величины (по умолчанию ширина)
+=above($width, $orientation: 'width')
+    @media screen and (min-#{$orientation}: $width)
+        @content
+
+
+// между первой и второй величиной (по умолчанию ширина)
+=between($minWidth, $maxWidth, $orientation: 'width')
+    @media screen and (min-#{$orientation}: $minWidth) and (max-#{$orientation}: $maxWidth)
+        @content
+
+
+
+
+//// меньше указанной ширины
+//=below($width)
+//    @media screen and (max-width: $width)
+//        @content
+//
+//
+//
+//// больше указанной ширины
+//=above($width)
+//    @media screen and (min-width: $width)
+//        @content
+//
+//
+//
+//// между первой и второй шириной
+//=between($minWidth, $maxWidth)
+//    @media screen and (min-width: $minWidth) and (max-width: $maxWidth)
+//        @content
+
+
+@import "header"
+@import "menu"
+@import "slider"
+@import "content"
+@import "breadcrumbs"
+@import "accordion"
+@import "pagination"
+@import "footer"
+@import "popup"
+@import "form"
+@import "btn"
+

@@ -1,0 +1,23 @@
+.slick-prev,
+.slick-next
+    z-index: 1001
+
+
+.slick-next
+    right: 10%
+
+.slick-prev
+    left: 10%
+
+
+.slick-prev:before
+    content: url("../img/prev.png")
+
+
+.slick-next:before
+    content: url("../img/next.png")
+
++below($tablet)
+    .slick-next,
+    .slick-prev
+        transform: scale(.5)

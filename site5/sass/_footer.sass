@@ -1,0 +1,58 @@
+.footer
+    background-color: $color-grey
+
+    &__wrap
+        display: flex
+        justify-content: space-around
+        flex-wrap: wrap
+
+        padding-top: rem(50)
+        padding-bottom: rem(53)
+        font-size: rem(14)
+        font-weight: 400
+        line-height: rem(22)
+        letter-spacing: rem(0.35)
+        color: $color-white
+
+        +below($mobile)
+            padding-top: rem(30)
+            padding-bottom: rem(33)
+
+    &__menu
+        +below($mobile)
+            height: 100%
+
+    &__menu-list
+        display: flex
+        flex-direction: column
+
+        list-style-type: none
+
+
+    &__menu-item
+        line-height: rem(26)
+        text-decoration: underline
+        cursor: pointer
+        color: $color-white
+
+    &__author
+        position: relative
+        padding-left: rem(45)
+
+        &::after
+            content: url("../img/company.png")
+            position: absolute
+            top: rem(6)
+            left: 0
+
+        +below($tablet)
+            order: 2
+            width: 100%
+            margin-top: rem(20)
+
+    &__contacts
+        +below($mobile)
+            width: 40%
+
+    &__author-link
+        color: $color-white

@@ -1,0 +1,35 @@
+.breadcrumbs
+    width: 100%
+    margin-bottom: rem(26)
+    margin-top: rem(5)
+    margin-left: rem(63)
+
+    background-color: $color-white
+    +below($tablet)
+        margin-left: 0
+
+    &__list
+        display: flex
+        align-items: flex-start
+        list-style-type: none
+        max-width: rem(250)
+
+    &__item
+        font-size: rem(14)
+        font-weight: 400
+        line-height: rem(18)
+        letter-spacing: rem(0.35)
+        text-decoration: none
+
+        &:not(:first-child):before
+            content: '/'
+            padding: 0 rem(5)
+
+            color: $color-grey
+
+    &__link
+        color: $color-grey
+        text-decoration: underline
+
+    &__link_active
+        text-decoration: none

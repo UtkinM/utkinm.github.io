@@ -1,0 +1,33 @@
+.pagination
+    padding: rem(20) 0
+
+    &:after
+        content: ''
+        display: block
+        width: 100%
+        margin-top: rem(60)
+        height: rem(1.5)
+        background-color: $color-grey
+
+    &__list
+        margin: 0 auto
+
+        list-style: none
+        text-align: center
+
+    &__item
+        display: inline-block
+
+        &:not(:last-child)
+            padding-right: rem(16)
+
+    &__link
+        font-size: rem(14)
+        font-weight: 400
+        line-height: rem(22)
+        text-decoration: none
+        color: $color-grey
+
+        &_active
+            font-size: rem(18)
+            color: $color-dark_grey

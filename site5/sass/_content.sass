@@ -1,0 +1,139 @@
+.content
+
+    &__wrap
+        display: flex
+        justify-content: space-between
+        flex-wrap: nowrap
+        max-width: 985px
+        margin: 0 auto
+        padding-top: rem(10)
+        padding-bottom: rem(202)
+
+        +below($tablet)
+            padding-bottom: rem(40)
+            flex-wrap: wrap
+
+    &__aside
+
+
+        +below($tablet)
+            display: flex
+            justify-content: center
+            width: 100%
+
+
+    &__price-list
+        display: inline-block
+        margin-top: rem(110)
+        margin-left: rem(25)
+
+        text-align: center
+        cursor: pointer
+
+        +below($tablet-b)
+            margin-top: rem(10)
+        +below($mobile)
+            width: 30%
+
+    &__title-hidden
+        +hidden
+
+    &__item
+        width: rem(250)
+        height: rem(380)
+
+        margin-right: rem(15)
+        margin-bottom: rem(15)
+
+        border: rem(20) solid $color-bg-content
+
+    &__list
+        display: flex
+        flex-wrap: wrap
+        flex-shrink: 0
+        list-style-type: none
+
+        +below($tablet-b)
+            justify-content: center
+            width: 80%
+
+        +below($tablet)
+            margin-left: 0
+            width: 100%
+
+    &__items
+
+        width: rem(795)
+
+        +below($tablet)
+            width: 95%
+            margin-top: rem(20)
+
+
+    &__item
+        background-color: $color-bg-content
+
+    &__product
+        background-color: $color-white
+
+    &__poduct-link
+        cursor: pointer
+
+    &__text
+        margin-top: rem(21)
+
+        font-size: rem(18)
+        font-weight: 400
+        line-height: rem(18)
+        letter-spacing: rem(0.45)
+        color: $color-grey
+
+    &__price
+        position: relative
+        margin-top: rem(55)
+
+        font-size: rem(28)
+        font-weight: 700
+        line-height: rem(18)
+        letter-spacing: rem(0.7)
+        cursor: pointer
+        color: $color-dark_grey
+
+        &:before
+            position: absolute
+            content: url("../img/addtobasket-mini.png")
+            right: rem(10)
+
+
+    &__article-wrap
+        display: flex
+        justify-content: space-between
+
+        +below($tablet)
+            flex-direction: column
+            padding: rem(20)
+
+    &__article
+
+        &:first-child
+            width: rem(348)
+            margin-bottom: rem(10)
+
+            +below($tablet-b)
+                margin-right: rem(20)
+
+            +below($tablet)
+                width: 100%
+
+        &:last-child
+            width: rem(388)
+
+            +below($tablet)
+                width: 100%
+
+    &__article-text
+        font-size: rem(14)
+        font-weight: 400
+        line-height: rem(22)
+        letter-spacing: rem(0.35)
+        color: $color-grey

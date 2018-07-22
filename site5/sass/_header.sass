@@ -1,0 +1,58 @@
+.header
+    background-color: $color-bg-header
+
+    &__wrap
+        display: flex
+        justify-content: space-between
+        align-items: center
+
+        padding-top: rem(35)
+        padding-bottom: rem(64)
+        padding-left: rem(80)
+        padding-right: rem(80)
+
+        +below($tablet)
+            flex-direction: column
+
+            padding-top: rem(35)
+            padding-bottom: rem(45)
+            padding-left: 0
+            padding-right: 0
+
+    &__logo
+        margin-top: rem(24)
+
+    &__wrap-phone
+        display: flex
+        flex-direction: column
+        align-items: flex-end
+
+        +below($tablet)
+            align-items: center
+
+        +below(rem(260))
+            margin-right: auto
+
+
+    &__phone
+        display: block
+
+        font-family: 'Open Sans Condensed', sans-serif
+        font-size: rem(40)
+        font-weight: 400
+        line-height: rem(46)
+        letter-spacing: rem(1)
+        text-decoration: none
+        text-align: right
+        color: $color-grey
+
+        +below($mobile)
+            font-size: rem(30)
+
+    &__feedback
+        font-size: rem(24)
+        font-weight: 700
+        line-height: rem(36)
+        letter-spacing: rem(0.6)
+        text-decoration: underline dashed
+        color: $color-grey
