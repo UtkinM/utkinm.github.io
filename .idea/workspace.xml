@@ -2,8 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b210e120-d1a7-40e1-ac65-ebcf4532fd85" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Rakov/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rakov/fonts/Rubik-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rakov/fonts/Rubik-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rakov/fonts/Rubik-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rakov/fonts/Rubik-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rakov/fonts/Rubik-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rakov/fonts/Rubik-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rakov/fonts/Rubik-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rakov/fonts/Rubik-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rakov/fonts/Rubik-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rakov/fonts/Rubik-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rakov/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rakov/html/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rakov/img/img-main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rakov/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rakov/js/_main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site5/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/site5/js/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,25 +32,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site5/index.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site5/dist/main.css">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site3/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret column="209" selection-start-column="209" selection-end-column="209" />
+            <state relative-caret-position="215">
+              <caret line="1620" column="25" selection-start-line="1620" selection-start-column="1" selection-end-line="1620" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/site5/js/main.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="mail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mail.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rakov/css/style.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Rakov/html/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="153">
+              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -47,7 +72,13 @@
       <find>side.png</find>
       <find>slide.p</find>
       <find>slide.png</find>
+      <find>transition</find>
+      <find>on-form__che</find>
+      <find>selection-form__checkbox</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,6 +92,8 @@
         <option value="$PROJECT_DIR$/site1/main.html" />
         <option value="$PROJECT_DIR$/site5/dist/main.css" />
         <option value="$PROJECT_DIR$/site5/js/main.js" />
+        <option value="$PROJECT_DIR$/Rakov/main.html" />
+        <option value="$PROJECT_DIR$/Rakov/html/main.html" />
       </list>
     </option>
   </component>
@@ -80,11 +113,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1906" />
-    <option name="y" value="17" />
-    <option name="width" value="1640" />
-    <option name="height" value="834" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1513" />
+    <option name="y" value="52" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -101,25 +134,18 @@
             <path>
               <item name="utkinm.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="utkinm.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="site5" type="462c0819:PsiDirectoryNode" />
+              <item name="Rakov" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="utkinm.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="utkinm.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="site5" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="Rakov" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="utkinm.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="utkinm.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="site5" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="utkinm.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="utkinm.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="site5" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="site1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -159,6 +185,20 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JavaScript Debug.main.html">
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/utkinm.github.io/Rakov/html/index.html" />
+    <configuration name="main.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/utkinm.github.io/Rakov/html/main.html" />
+    <list>
+      <item itemvalue="JavaScript Debug.main.html" />
+      <item itemvalue="JavaScript Debug.index.html" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.main.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -170,7 +210,10 @@
       <option name="presentableId" value="Default" />
       <updated>1523343245659</updated>
       <workItem from="1523343248477" duration="11430000" />
-      <workItem from="1532266609358" duration="156000" />
+      <workItem from="1532266609358" duration="843000" />
+      <workItem from="1534504889197" duration="892000" />
+      <workItem from="1535552595373" duration="1170000" />
+      <workItem from="1541052792551" duration="298000" />
     </task>
     <task id="LOCAL-00001" summary="Развернул проект на github">
       <created>1523343460853</created>
@@ -183,18 +226,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11586000" />
+    <option name="totallyTimeSpent" value="14633000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1513" y="52" width="1936" height="1066" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22068231" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22814499" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32851985" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -206,10 +248,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="1.0" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="1.0" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +291,54 @@
     <option name="LAST_COMMIT_MESSAGE" value="Развернул проект на github" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/site3/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27540">
+          <caret line="1620" column="25" selection-start-line="1620" selection-start-column="1" selection-end-line="1620" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site5/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site5/dist/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="209" selection-start-column="209" selection-end-column="209" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site5/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site1/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19431">
+          <caret line="1143" column="20" selection-start-line="1143" selection-start-column="10" selection-end-line="1143" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site5/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site5/dist/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="209" selection-start-column="209" selection-end-column="209" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site5/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/site1/static/js/main.min.js" />
     <entry file="file://$PROJECT_DIR$/site1/.gitignore" />
     <entry file="file://$PROJECT_DIR$/site2/js/README" />
@@ -262,14 +352,13 @@
     <entry file="file://$PROJECT_DIR$/site6/WEB-INF/pages/index.html" />
     <entry file="file://$PROJECT_DIR$/site3/index.html" />
     <entry file="file://$PROJECT_DIR$/site1/index.html" />
-    <entry file="file://$PROJECT_DIR$/site1/static/css/main.css" />
     <entry file="file://$PROJECT_DIR$/site1/main.html" />
     <entry file="file://$PROJECT_DIR$/site5/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/site5/dist/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state>
           <caret column="209" selection-start-column="209" selection-end-column="209" />
         </state>
       </provider>
@@ -277,7 +366,37 @@
     <entry file="file://$PROJECT_DIR$/site5/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site1/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="1143" column="20" selection-start-line="1143" selection-start-column="10" selection-end-line="1143" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site3/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="1620" column="25" selection-start-line="1620" selection-start-column="1" selection-end-line="1620" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mail.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rakov/css/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rakov/html/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
         </state>
       </provider>
     </entry>
