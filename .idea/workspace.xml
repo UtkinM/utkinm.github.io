@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b210e120-d1a7-40e1-ac65-ebcf4532fd85" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Rakov/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rakov/fonts/Rubik-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rakov/fonts/Rubik-BlackItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rakov/fonts/Rubik-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rakov/fonts/Rubik-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rakov/fonts/Rubik-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rakov/fonts/Rubik-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rakov/fonts/Rubik-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rakov/fonts/Rubik-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rakov/fonts/Rubik-MediumItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rakov/fonts/Rubik-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rakov/html/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rakov/html/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rakov/img/img-main.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rakov/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rakov/js/_main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b210e120-d1a7-40e1-ac65-ebcf4532fd85" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -161,16 +143,18 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\work\utkinm.github.io\site2" />
-      <recent name="E:\work\utkinm.github.io\site1" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\dev\test\utkinm.github.io\Rakov" />
       <recent name="E:\work\utkinm.github.io\site6" />
       <recent name="E:\work\utkinm.github.io\site5" />
       <recent name="E:\work\utkinm.github.io\site4" />
       <recent name="E:\work\utkinm.github.io\site3" />
-      <recent name="E:\work\utkinm.github.io" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dev\test\utkinm.github.io\Rakov\html" />
+      <recent name="C:\dev\test\utkinm.github.io\Rakov" />
+      <recent name="E:\work\utkinm.github.io\site2" />
+      <recent name="E:\work\utkinm.github.io\site1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -213,7 +197,7 @@
       <workItem from="1532266609358" duration="843000" />
       <workItem from="1534504889197" duration="892000" />
       <workItem from="1535552595373" duration="1170000" />
-      <workItem from="1541052792551" duration="298000" />
+      <workItem from="1541052792551" duration="919000" />
     </task>
     <task id="LOCAL-00001" summary="Развернул проект на github">
       <created>1523343460853</created>
@@ -222,11 +206,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523343460853</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Добавил страницу">
+      <created>1541053109819</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1541053109820</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14633000" />
+    <option name="totallyTimeSpent" value="15254000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1513" y="52" width="1936" height="1066" extended-state="0" />
@@ -288,7 +279,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Развернул проект на github" />
-    <option name="LAST_COMMIT_MESSAGE" value="Развернул проект на github" />
+    <MESSAGE value="Добавил страницу" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил страницу" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/site3/css/style.css">
